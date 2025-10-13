@@ -106,10 +106,18 @@ pip install repello-agent-wiz
 
 ## Prerequisites
 
-Before running any analysis commands, you must set your OpenAI API key as an environment variable:
+Before running any analysis commands, you must configure your OpenAI API key. You can do this in two ways:
 
+**Option 1: Environment Variable**
 ```bash
 export OPENAI_API_KEY=sk-...
+```
+
+**Option 2: .env File (Recommended)**
+```bash
+# Copy the sample file and edit it
+cp .env.sample .env
+# Edit .env and add your API key
 ```
 
 ## 🚀 CLI Usage
