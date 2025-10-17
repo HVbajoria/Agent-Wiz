@@ -115,9 +115,7 @@ export OPENAI_API_KEY=sk-...
 
 **Option 2: .env File (Recommended)**
 ```bash
-# Copy the sample file and edit it
 cp .env.sample .env
-# Edit .env and add your API key
 ```
 
 ## 🚀 CLI Usage
