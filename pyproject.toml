@@ -21,6 +21,7 @@ classifiers = [
 dependencies = [
     "openai",
     "python-dotenv",
+    "pyyaml",
 ]
 
 [project.scripts]
